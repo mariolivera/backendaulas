@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "comentario": "rauraurau",
+        "nomeDoAutor":"Ale",
+        "produtoId": "1",
+        "date": "26/10/2022"
+    },
+    {
+        "id": "2",
+        "comentario": "rauraurau",
+        "nomeDoAutor":"allan",
+        "produtoId": "2",
+        "date": "21/09/2012"
+    },
+    {
+        "id": "3",
+        "comentario": "rauraurau",
+        "nomeDoAutor":"lorao",
+        "produtoId": "2",
+        "date": "16/10/2022"
+    }
+]

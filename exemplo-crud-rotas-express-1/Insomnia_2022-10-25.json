@@ -1,0 +1,268 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-10-25T11:19:58.987Z",
+    "__export_source": "insomnia.desktop.app:v2022.6.0",
+    "resources": [
+        {
+            "_id": "req_1e38d3a2f3e04459b9882792d0cbcf6e",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666696775176,
+            "created": 1666696710093,
+            "url": "http://localhost:3000/produto",
+            "name": "Produto POST",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\": \"10\",\n\t\"nome\": \"produto 2\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1666696710093,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "parentId": null,
+            "modified": 1661941591864,
+            "created": 1661941591864,
+            "name": "New Document",
+            "description": "",
+            "scope": "design",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_334ea3b70cd2439ab3e3daedeb2bdb50",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666696700421,
+            "created": 1666696672388,
+            "url": "http://localhost:3000/produto",
+            "name": "Produto GET",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1666696672388,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ab94670d4eaf4b1e86c65cd866d87205",
+            "parentId": "fld_9c112ea435eb40a49638a1ca1d36af03",
+            "modified": 1666617322653,
+            "created": 1666617301347,
+            "url": "http://localhost:3000/usuarios",
+            "name": "Buscar todos",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1666617301347,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_9c112ea435eb40a49638a1ca1d36af03",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666617300140,
+            "created": 1666617300140,
+            "name": "Usuarios",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1666617300140,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_a412370de2d646f78d2e39167205191b",
+            "parentId": "fld_9c112ea435eb40a49638a1ca1d36af03",
+            "modified": 1666622736827,
+            "created": 1666617328043,
+            "url": "http://localhost:3000/usuarios/2",
+            "name": "Buscar um usuario",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1666397504304.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_62939bb02b7f47fc960dc8730054f2f6",
+            "parentId": "fld_9c112ea435eb40a49638a1ca1d36af03",
+            "modified": 1666622774444,
+            "created": 1666617345990,
+            "url": "http://localhost:3000/login",
+            "name": "Autenticação / Login",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"email\": \"maria@email.com\",\n\t\"senha\": \"112233\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1666287605783.25,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_cc41d8a228bb45bf8e06431da13374fb",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666696652100,
+            "created": 1666177707262,
+            "url": "http://localhost:3000/produto",
+            "name": "clientes",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\": 9,\n\t\"nome\": \"maria2\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_dd8ef6badd224afaa348d47fac7ef115",
+                    "name": "Authorization",
+                    "value": "uar_uar_uar332211#@$KT",
+                    "description": ""
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1666177707262,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_5a932bac9145435fac8513761ec5930b",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666613045860,
+            "created": 1666183886799,
+            "url": "http://localhost:3000/produto",
+            "name": "Cadastrar Cliente",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "id": "pair_12741a4018b3492887b68547ca6606d1",
+                    "name": "Authorization",
+                    "value": "cachorro",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1666155068698,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_325c810a6e7fab08f7f9f00399c6305949d3818c",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666696466497,
+            "created": 1661941591881,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1661941591881,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_325c810a6e7fab08f7f9f00399c6305949d3818c",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1661941591885,
+            "created": 1661941591885,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_5f63306c268149a680ce15fdb11eb689",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1666177696028,
+            "created": 1661941591876,
+            "fileName": "Allan",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "uts_e74db04686dc476ea97c593c42fe55ba",
+            "parentId": "wrk_210bd81b5b5b47fca08c9d8158753084",
+            "modified": 1661941591891,
+            "created": 1661941591891,
+            "name": "Example Test Suite",
+            "_type": "unit_test_suite"
+        }
+    ]
+}
